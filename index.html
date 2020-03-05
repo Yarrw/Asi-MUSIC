@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="mymusic">
+        <!-- 系统导航 -->
+        <div class="system-nav"></div>
+        <!-- 系统导航 end-->
+
+        <!-- 头部 -->
+        <header>
+            <div class="nav clearfix">
+                <div class="fl menu"></div>
+                <div class="fl nav-title-box">
+                    <div class="nav-title">
+                        <span>我的</span>
+                        <span class="en">发现</span>
+                        <span>云村</span>
+                        <span>视频</span>
+                    </div>
+                </div>
+                <div class="fr search"></div>
+            </div>
+        </header>
+        <!-- 头部 -->
+
+        <!-- 中间 -->
+           
+        <div class="middle">
+            <div class="man1">
+                <!-- 轮播图 -->
+                <div class="ban">
+                    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                        <ol class="carousel-indicators mb-0">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active dian"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="dian"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="dian"></li>
+                        </ol>
+                        <div class="carousel-inner yj">
+                            <div class="carousel-item active ">
+                                <img src="./img/9.14-id=52520072.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="./img/46811262_p0.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="./img/123.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+
+                <div class="icon-list-box clearfix">
+                    <ul class="icon-list clearfix">
+                        <li>
+                            <div class="icon">
+                                <img src="./icon/meirituijie.png" alt="" class="auto-img">
+                            </div>
+                            <div class="text">
+                                每日推荐
+                            </div>
+                        </li>
+                         <li id="gd">
+                            <div class="icon">
+                                <img src="./icon/gedan.png" alt="" class="auto-img">
+                            </div>
+                            <div class="text">
+                                歌单
+                            </div>
+                        </li>
+                         <li>
+                            <div class="icon">
+                                <img src="./icon/pai.png" alt="" class="auto-img">
+                            </div>
+                            <div class="text">
+                                排行榜
+                            </div>
+                        </li>
+                         <li>
+                            <div class="icon">
+                                <img src="./icon/diantai.png" alt="" class="auto-img">
+                            </div>
+                            <div class="text">
+                                电台
+                            </div>
+                        </li>
+                         <li>
+                            <div class="icon">
+                                <img src="./icon/zhibo.png" alt="" class="auto-img">
+                            </div>
+                            <div class="text">
+                                直播
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <i class="line"></i>
+
+                <div class="recommend">
+                    <div class="gedan ">
+                        <div class="gedan-top">
+                            <div class="gedan-title">
+                                推荐歌单
+                            </div>
+                            <div class="gedan-all">
+                                歌单广场
+                            </div>
+                        </div>
+                        <div class="gedan-list clearfix">
+                           <!--  <div class="gedan-item">
+                                <div class="gedan-img">
+                                    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2480949990,1116660773&fm=26&gp=0.jpg" alt="" class="auto-img">
+                                </div>
+                                <div class="gedan-wenzi two-text">还哦撒大咖大咖大咖大咖大咖大咖大咖大咖色大沙发沙
+                                </div>
+                                <div class="layer">
+                                    <div class="lister-number fr">123万
+                                    </div>
+                                    <div class="lister-icon fr">
+                                    </div>
+                                </div>
+                            </div> -->
+                           
+
+                        </div>
+                    </div>
+                   <!--  <div class="xindie">
+                        <div class="xindie-top clearfix">
+                            <div class="xindie-title fl">
+                                新碟
+                            </div>
+                            <div class="xindie-all fr">
+                                更多新碟
+                            </div>
+                        </div>
+                        <div class="xindie-list clearfix">
+                            <div class="xindie-item">
+                                <div class="xindie-img">
+                                    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2480949990,1116660773&fm=26&gp=0.jpg" alt="" class="auto-img">
+                                </div>
+                                <div class="xindie-wenzi two-text">还哦撒大咖大咖
+                                </div>
+                                <div class="xindie-wenzi1">李忆梦</div>
+                            </div>
+                            <div class="xindie-item">
+                                <div class="xindie-img">
+                                    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2480949990,1116660773&fm=26&gp=0.jpg" alt="" class="auto-img">
+                                </div>
+                                <div class="xindie-wenzi two-text">还哦撒大咖大咖
+                                </div>
+                                <div class="xindie-wenzi1">李忆梦</div>
+                            </div>
+                            <div class="xindie-item">
+                                <div class="xindie-img">
+                                    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2480949990,1116660773&fm=26&gp=0.jpg" alt="" class="auto-img">
+                                </div>
+                                <div class="xindie-wenzi two-text">还哦撒大咖大咖
+                                </div>
+                                <div class="xindie-wenzi1">李忆梦</div>
+                                <div class="layer">
+                                    <div class="lister-number fr">123万
+                                    </div>
+                                    <div class="lister-icon fr">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div> -->
+                </div>
+            </div>
+            
+
+        </div>
+        <!-- 中间end -->
+
+        
+
+        <!-- 歌单广场 -->
+        <div class="gdgc">
+           <div class="gdgc-box">
+                <div class="gdgc-top">
+                    <div class="houtui fl"></div>
+                    <div class="gdgc-title fl">歌单广场</div>
+                </div>
+                <div class="gdgc-nav">
+                    <div class=" gdgc-nav-box  fl">
+                        <div class="gdgc-bigbox">
+                            <ul class="gdgc-nav-list clearfix">
+                                <li class="em">推荐</li>
+                                <li data-tag="gaunfang" data-starindex="12">官方</li>
+                                <li data-tag="huayu" data-starindex>华语</li>
+                                <li data-tag="liuxing" data-starindex>流行</li>
+                                <li data-tag="dianzi" data-starindex>电子</li>
+                                <li data-tag="qingyinyue" data-starindex>轻音乐</li>
+                                <li data-tag="yaogun" data-starindex>摇滚</li>
+                                <li data-tag="jingping" data-starindex>精品</li>
+                            </ul>
+                            <i class="xiahuaxian"></i>
+                        </div>
+                       
+                    </div>
+                    
+                    <div class="more fl">
+
+                    </div>   
+                </div>
+
+                <i class="line1"></i>
+
+                <div class="gdgc-list-box">
+                    <div class="banan">
+                        <div class="banan-box"></div>
+                    </div>
+                    <div class="gdgc-biao">
+                       <!--  <div class="gdgc-item">
+                            <div class="item-img"> 
+                                <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1617587836,1150527484&fm=26&gp=0.jpg" alt="" class="auto-img">
+                            </div>
+                            <div class="item-text two-text">
+                                丢掉所有烦恼，今夜睡个好觉
+                            </div>
+                            <div class="layer">
+                                <div class="lister-number fr">17万
+                                </div>
+                                <div class="lister-icon fr">
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                    </div>
+                    <div class="vip-box">
+                        <div class="vip">白嫖了这么多歌还快去充钱</div>
+                        <span> vip专属</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  歌单广场end-->
+
+
+
+         <!-- 歌单详情 -->
+         <div class="gdxq">   
+            <div class="gdxq-top">
+                <div class="zuo fl ">
+                    <div class="top-houtui fl"></div>
+                    <div class="top-title fl">歌单</div>
+                </div>
+                <div class="you fr">
+                    <div class="top-search fl" ></div>
+                    <div class="top-more fl" ></div>
+                </div>
+            </div>
+            <div class="gdxq-middle">
+                <div class="fengmian fl">
+                    <div class="tu">
+                        <img src="" class="auto-img" alt="" id="gdtu">
+                    </div>
+                    <div class="layer">
+                            <div class="lister-number fr" id="playCount"><!-- 123万 -->
+                            </div>
+                            <div class="lister-icon fr">
+                            </div>
+                        </div>
+                </div>
+                <div class="xinxi fr">
+                    <div class="xtitle" id="name">
+                       <!--  及时止损才是成年人感情中最高的自律 -->
+                    </div>
+                    <div class="xzuozhe-box clearfix">
+                        <div  class="xzuozhe-tou fl" >
+                            
+                        </div>
+                        <div class="xzuozhe-title fl one-text" id="nickname">
+                            <!-- 可是你总是忘记我喜欢你了 -->
+                        </div>
+                    </div>
+                    <div class="xzuozhe-jieshao two-text" id="description">
+                        <!-- 成年人的第一课，大概就是懂得放手吧，知道想要的是什么，什么对自己哟哟哟 -->
+                    </div>
+                </div>
+            </div>
+            <div class="gdxq-bottom">
+                <div class="gdxq-list">
+                    <div class="list-top">
+                        <div class="list-top-tu fl" ></div>
+                        <div class="list-top-tile fl">
+                            播放全部
+                          
+                        </div>
+                        <span class="list-top-mun">(共61首)</span>
+                        <div class="list-shoucang fr">
+                            <span>+</span>
+                            <span>收藏</span>
+                            <span>(39753)</span>
+                        </div>
+                    </div>
+                    <div class="gdxq-item-box">
+                       <!--  <div class="gdxq-list-item">
+                        <div class="xuhao fl">1
+                            <div class="laba">
+                            <img src="./icon/laba1.jpg" alt="" class="auto-img">
+                        </div>
+                        </div>
+                        
+                        <div class="gdxq-0 fl">
+                            <div class="gdxq-1">夜行</div>
+                            <div class="gdxq-2">队长-夜行</div>
+                        </div>
+
+                    </div> -->
+                    </div>
+                    <!-- 加载提示 -->
+                    <div class="tip">
+                        <div class="tip-box">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i> 
+                            <span>努力加载中...</span>
+                        </div>
+                    </div>
+                    <!-- 加载提示end -->
+                    <!-- VIP提示 -->
+                    <div class="vip-tip">
+                    版权要求，当前歌曲仅限开通VIP使用
+                    </div>
+                    <!-- VIP提示end -->
+                
+                </div>
+
+            </div>
+            
+        </div>
+        <!-- 歌单详情end -->
+
+        <!-- 歌词页面 -->
+        <div class="gcym">
+            <div class="gc">
+                 <!-- 系统导航 -->
+                    <div class="gc-system-nav"></div>
+                <!-- 系统导航 end-->
+                <div class="gc-top">
+                    <div class="gc-black fl"></div>
+                    <div class="gc-title fl">
+                        <div class="gc-name"></div>
+                        <div class="gc-singer"></div>
+                    </div>
+                    <div class="gc-share fr"></div>
+                </div>
+                <div class="gc-middle">
+                    <div class="singword">
+                        
+                    </div>
+                </div>
+                <div class="gc-bottom">
+                    <!-- 滑动条 -->
+                    <div class="jdt clearfix">
+                        <div class="star fl">00:00</div>
+                        <div class="hkb fl">
+                            <div class="hdt"></div>
+                            <div class="hk"></div>
+                        </div>
+                        <div class="end fr"></div>
+                    </div>
+                    <!-- 滑动条end -->
+
+                    <!-- 控制台 -->
+                        <div class="contrl clearfix">
+                            <div class="mode fl " name='1'></div>
+                            <div class="play-contrl fl" >
+                                <div class="prev"></div>
+                                <div class="gc-play" name='0'></div>
+                                <div class="next"></div>
+                            </div>
+                            
+                        </div>
+                    <!-- 控制台end -->
+                </div>
+            </div>
+        </div>
+        <!-- 歌词页面 end -->
+
+       
+
+
+       
+
+        <!-- 底部 -->
+        <div class="bottom " name="0">
+            
+            <div class="fl simg-box">
+                <img src="" alt="" class="auto-img">
+            </div>
+            <div class="fl s">
+                <div class="sname one-text"></div>
+                <div class="singer one-text"></div>
+            </div>
+            <div class="fr sicons">
+               
+                <span class="play" data-play="0"></span>
+                <span class="menuopen">
+                </span>
+
+            </div>
+
+            <!-- 进度条 -->
+            <!-- <div class="progress">
+                <div class="active-progress"></div>
+            </div> -->
+           <!-- 音符 -->
+           <div>
+               <i class="yinfu yf1"></i>
+               <i class="yinfu yf2"></i>
+               <i class="yinfu yf3"></i>
+           </div>
+            
+          
+        
+        </div>
+        <!-- 底部end -->
+
+         <!-- 最近播放 -->       
+         <div class="RecentlyPlayed-bg"></div>
+         <!-- <div class="RecentlyPlayed"> -->
+
+         <div class="RecentlyPlayed-box">
+             <div class="RecentlyPlayed-list-top clearfix">
+                 <div class="rp-zuo fl">
+                     列表循环(61)
+                 </div>
+                 <div class="rp-you fr clearfix">
+                     <div class="sc fl">收藏全部</div>
+                     <div class="del fl"></div>
+                 </div>
+             </div>
+             <div class="RecentlyPlayed-list">
+                 <div class="RecentlyPlayed-list-item">
+                     <div class="rp-item-zuo fl">
+                         <div class="lb-icon "></div>
+                         <div class="rp-sname "></div>
+                         <div class="rp-singer"></div>
+                     </div>
+                     <div class="rp-item-you fr">
+                         <div class="rp-remove"></div>
+                     </div>
+                 </div> 
+             </div>
+         </div>
+         <!-- </div> -->
+
+        
+    </div>
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/rem.js"></script>
+    <!-- <script src="./js/gdgc.js"></script> -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
